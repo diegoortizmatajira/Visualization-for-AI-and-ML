@@ -1,0 +1,1736 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20213.21.1018.0949                               -->
+<workbook original-version='18.1' source-build='2021.3.3 (20213.21.1018.0949)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='CO2 Per Capita RAW DATA (World_Bank_CO2)' inline='true' name='federated.05sz1by0hj4uk2175ikhm1bzduea' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='World_Bank_CO2' name='excel-direct.0l801nk0zjjjqy130fev60iyhfii'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/diegoortizmatajira/Documents/Personal/Visualization-for-AI-and-ML/20211130/World_Bank_CO2.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0l801nk0zjjjqy130fev60iyhfii' name='CO2 Per Capita RAW DATA' table='[&apos;CO2 Per Capita RAW DATA$&apos;]' type='table'>
+          <columns gridOrigin='A1:BH249:no:A1:BH249:0' header='yes' outcome='2'>
+            <column datatype='string' name='Country Name' ordinal='0' />
+            <column datatype='string' name='Country Code' ordinal='1' />
+            <column datatype='string' name='Indicator Name' ordinal='2' />
+            <column datatype='string' name='Indicator Code' ordinal='3' />
+            <column datatype='string' name='1960' ordinal='4' />
+            <column datatype='string' name='1961' ordinal='5' />
+            <column datatype='string' name='1962' ordinal='6' />
+            <column datatype='string' name='1963' ordinal='7' />
+            <column datatype='string' name='1964' ordinal='8' />
+            <column datatype='string' name='1965' ordinal='9' />
+            <column datatype='string' name='1966' ordinal='10' />
+            <column datatype='string' name='1967' ordinal='11' />
+            <column datatype='string' name='1968' ordinal='12' />
+            <column datatype='string' name='1969' ordinal='13' />
+            <column datatype='string' name='1970' ordinal='14' />
+            <column datatype='string' name='1971' ordinal='15' />
+            <column datatype='string' name='1972' ordinal='16' />
+            <column datatype='string' name='1973' ordinal='17' />
+            <column datatype='string' name='1974' ordinal='18' />
+            <column datatype='string' name='1975' ordinal='19' />
+            <column datatype='string' name='1976' ordinal='20' />
+            <column datatype='string' name='1977' ordinal='21' />
+            <column datatype='string' name='1978' ordinal='22' />
+            <column datatype='string' name='1979' ordinal='23' />
+            <column datatype='string' name='1980' ordinal='24' />
+            <column datatype='string' name='1981' ordinal='25' />
+            <column datatype='string' name='1982' ordinal='26' />
+            <column datatype='string' name='1983' ordinal='27' />
+            <column datatype='string' name='1984' ordinal='28' />
+            <column datatype='string' name='1985' ordinal='29' />
+            <column datatype='string' name='1986' ordinal='30' />
+            <column datatype='string' name='1987' ordinal='31' />
+            <column datatype='string' name='1988' ordinal='32' />
+            <column datatype='string' name='1989' ordinal='33' />
+            <column datatype='string' name='1990' ordinal='34' />
+            <column datatype='string' name='1991' ordinal='35' />
+            <column datatype='string' name='1992' ordinal='36' />
+            <column datatype='string' name='1993' ordinal='37' />
+            <column datatype='string' name='1994' ordinal='38' />
+            <column datatype='string' name='1995' ordinal='39' />
+            <column datatype='string' name='1996' ordinal='40' />
+            <column datatype='string' name='1997' ordinal='41' />
+            <column datatype='string' name='1998' ordinal='42' />
+            <column datatype='string' name='1999' ordinal='43' />
+            <column datatype='string' name='2000' ordinal='44' />
+            <column datatype='string' name='2001' ordinal='45' />
+            <column datatype='string' name='2002' ordinal='46' />
+            <column datatype='string' name='2003' ordinal='47' />
+            <column datatype='string' name='2004' ordinal='48' />
+            <column datatype='string' name='2005' ordinal='49' />
+            <column datatype='string' name='2006' ordinal='50' />
+            <column datatype='string' name='2007' ordinal='51' />
+            <column datatype='string' name='2008' ordinal='52' />
+            <column datatype='string' name='2009' ordinal='53' />
+            <column datatype='string' name='2010' ordinal='54' />
+            <column datatype='string' name='2011' ordinal='55' />
+            <column datatype='string' name='2012' ordinal='56' />
+            <column datatype='string' name='2013' ordinal='57' />
+            <column datatype='string' name='2014' ordinal='58' />
+            <column datatype='string' name='2015' ordinal='59' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0l801nk0zjjjqy130fev60iyhfii' name='CO2 Per Capita RAW DATA' table='[&apos;CO2 Per Capita RAW DATA$&apos;]' type='table'>
+          <columns gridOrigin='A1:BH249:no:A1:BH249:0' header='yes' outcome='2'>
+            <column datatype='string' name='Country Name' ordinal='0' />
+            <column datatype='string' name='Country Code' ordinal='1' />
+            <column datatype='string' name='Indicator Name' ordinal='2' />
+            <column datatype='string' name='Indicator Code' ordinal='3' />
+            <column datatype='string' name='1960' ordinal='4' />
+            <column datatype='string' name='1961' ordinal='5' />
+            <column datatype='string' name='1962' ordinal='6' />
+            <column datatype='string' name='1963' ordinal='7' />
+            <column datatype='string' name='1964' ordinal='8' />
+            <column datatype='string' name='1965' ordinal='9' />
+            <column datatype='string' name='1966' ordinal='10' />
+            <column datatype='string' name='1967' ordinal='11' />
+            <column datatype='string' name='1968' ordinal='12' />
+            <column datatype='string' name='1969' ordinal='13' />
+            <column datatype='string' name='1970' ordinal='14' />
+            <column datatype='string' name='1971' ordinal='15' />
+            <column datatype='string' name='1972' ordinal='16' />
+            <column datatype='string' name='1973' ordinal='17' />
+            <column datatype='string' name='1974' ordinal='18' />
+            <column datatype='string' name='1975' ordinal='19' />
+            <column datatype='string' name='1976' ordinal='20' />
+            <column datatype='string' name='1977' ordinal='21' />
+            <column datatype='string' name='1978' ordinal='22' />
+            <column datatype='string' name='1979' ordinal='23' />
+            <column datatype='string' name='1980' ordinal='24' />
+            <column datatype='string' name='1981' ordinal='25' />
+            <column datatype='string' name='1982' ordinal='26' />
+            <column datatype='string' name='1983' ordinal='27' />
+            <column datatype='string' name='1984' ordinal='28' />
+            <column datatype='string' name='1985' ordinal='29' />
+            <column datatype='string' name='1986' ordinal='30' />
+            <column datatype='string' name='1987' ordinal='31' />
+            <column datatype='string' name='1988' ordinal='32' />
+            <column datatype='string' name='1989' ordinal='33' />
+            <column datatype='string' name='1990' ordinal='34' />
+            <column datatype='string' name='1991' ordinal='35' />
+            <column datatype='string' name='1992' ordinal='36' />
+            <column datatype='string' name='1993' ordinal='37' />
+            <column datatype='string' name='1994' ordinal='38' />
+            <column datatype='string' name='1995' ordinal='39' />
+            <column datatype='string' name='1996' ordinal='40' />
+            <column datatype='string' name='1997' ordinal='41' />
+            <column datatype='string' name='1998' ordinal='42' />
+            <column datatype='string' name='1999' ordinal='43' />
+            <column datatype='string' name='2000' ordinal='44' />
+            <column datatype='string' name='2001' ordinal='45' />
+            <column datatype='string' name='2002' ordinal='46' />
+            <column datatype='string' name='2003' ordinal='47' />
+            <column datatype='string' name='2004' ordinal='48' />
+            <column datatype='string' name='2005' ordinal='49' />
+            <column datatype='string' name='2006' ordinal='50' />
+            <column datatype='string' name='2007' ordinal='51' />
+            <column datatype='string' name='2008' ordinal='52' />
+            <column datatype='string' name='2009' ordinal='53' />
+            <column datatype='string' name='2010' ordinal='54' />
+            <column datatype='string' name='2011' ordinal='55' />
+            <column datatype='string' name='2012' ordinal='56' />
+            <column datatype='string' name='2013' ordinal='57' />
+            <column datatype='string' name='2014' ordinal='58' />
+            <column datatype='string' name='2015' ordinal='59' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BH249:no:A1:BH249:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country Name]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>Country Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country Code]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>Country Code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indicator Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Indicator Name]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>Indicator Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indicator Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Indicator Code]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>Indicator Code</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1960</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1960]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1960</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1961</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1961]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1961</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1962</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1962]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1962</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1963</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1963]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1963</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1964</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1964]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1964</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1965</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1965]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1965</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1966</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1966]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1966</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1967</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1967]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1967</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1968</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1968]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1968</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1969</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1969]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1969</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1970</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1970]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1970</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1971</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1971]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1971</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1972</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1972]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1972</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1973</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1973]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1973</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1974</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1974]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1974</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1975</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1975]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1975</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1976</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1976]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1976</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1977</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1977]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1977</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1978</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1978]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1978</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1979</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1979]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1979</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1980</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1980]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1980</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1981</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1981]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1981</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1982</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1982]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1982</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1983</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1983]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1983</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1984</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1984]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1984</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1985</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1985]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1985</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1986</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1986]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1986</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1987</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1987]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1987</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1988</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1988]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1988</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1989</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1989]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1989</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1990</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1990]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1990</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1991</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1991]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1991</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1992</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1992]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1992</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1993</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1993]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1993</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1994</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1994]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1994</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1995</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1995]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1995</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1996</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1996]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1996</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1997</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1997]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1997</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1998</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1998]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1998</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1999</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1999]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>1999</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2000</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2000]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>2000</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2001</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2001]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>2001</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2002</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2002]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>2002</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2003</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2003]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>2003</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2004</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2004]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>2004</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2005</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2005]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>2005</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2006</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2006]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>2006</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2007</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2007]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>2007</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2008</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2008]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>2008</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2009</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2009]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>2009</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2010</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2010]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>2010</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2011</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2011]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>2011</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2012</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2012]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>2012</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2013</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2013]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>2013</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2014</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2014]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>2014</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2015</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2015]</local-name>
+            <parent-name>[CO2 Per Capita RAW DATA]</parent-name>
+            <remote-alias>2015</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='CO2 Per Capita RAW DATA' datatype='table' name='[__tableau_internal_object_id__].[CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='CO2 Per Capita RAW DATA' id='CO2 Per Capita RAW DATA_1382E1B230944A0AA82BE6A714DBB1EE'>
+            <properties context=''>
+              <relation connection='excel-direct.0l801nk0zjjjqy130fev60iyhfii' name='CO2 Per Capita RAW DATA' table='[&apos;CO2 Per Capita RAW DATA$&apos;]' type='table'>
+                <columns gridOrigin='A1:BH249:no:A1:BH249:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Country Name' ordinal='0' />
+                  <column datatype='string' name='Country Code' ordinal='1' />
+                  <column datatype='string' name='Indicator Name' ordinal='2' />
+                  <column datatype='string' name='Indicator Code' ordinal='3' />
+                  <column datatype='string' name='1960' ordinal='4' />
+                  <column datatype='string' name='1961' ordinal='5' />
+                  <column datatype='string' name='1962' ordinal='6' />
+                  <column datatype='string' name='1963' ordinal='7' />
+                  <column datatype='string' name='1964' ordinal='8' />
+                  <column datatype='string' name='1965' ordinal='9' />
+                  <column datatype='string' name='1966' ordinal='10' />
+                  <column datatype='string' name='1967' ordinal='11' />
+                  <column datatype='string' name='1968' ordinal='12' />
+                  <column datatype='string' name='1969' ordinal='13' />
+                  <column datatype='string' name='1970' ordinal='14' />
+                  <column datatype='string' name='1971' ordinal='15' />
+                  <column datatype='string' name='1972' ordinal='16' />
+                  <column datatype='string' name='1973' ordinal='17' />
+                  <column datatype='string' name='1974' ordinal='18' />
+                  <column datatype='string' name='1975' ordinal='19' />
+                  <column datatype='string' name='1976' ordinal='20' />
+                  <column datatype='string' name='1977' ordinal='21' />
+                  <column datatype='string' name='1978' ordinal='22' />
+                  <column datatype='string' name='1979' ordinal='23' />
+                  <column datatype='string' name='1980' ordinal='24' />
+                  <column datatype='string' name='1981' ordinal='25' />
+                  <column datatype='string' name='1982' ordinal='26' />
+                  <column datatype='string' name='1983' ordinal='27' />
+                  <column datatype='string' name='1984' ordinal='28' />
+                  <column datatype='string' name='1985' ordinal='29' />
+                  <column datatype='string' name='1986' ordinal='30' />
+                  <column datatype='string' name='1987' ordinal='31' />
+                  <column datatype='string' name='1988' ordinal='32' />
+                  <column datatype='string' name='1989' ordinal='33' />
+                  <column datatype='string' name='1990' ordinal='34' />
+                  <column datatype='string' name='1991' ordinal='35' />
+                  <column datatype='string' name='1992' ordinal='36' />
+                  <column datatype='string' name='1993' ordinal='37' />
+                  <column datatype='string' name='1994' ordinal='38' />
+                  <column datatype='string' name='1995' ordinal='39' />
+                  <column datatype='string' name='1996' ordinal='40' />
+                  <column datatype='string' name='1997' ordinal='41' />
+                  <column datatype='string' name='1998' ordinal='42' />
+                  <column datatype='string' name='1999' ordinal='43' />
+                  <column datatype='string' name='2000' ordinal='44' />
+                  <column datatype='string' name='2001' ordinal='45' />
+                  <column datatype='string' name='2002' ordinal='46' />
+                  <column datatype='string' name='2003' ordinal='47' />
+                  <column datatype='string' name='2004' ordinal='48' />
+                  <column datatype='string' name='2005' ordinal='49' />
+                  <column datatype='string' name='2006' ordinal='50' />
+                  <column datatype='string' name='2007' ordinal='51' />
+                  <column datatype='string' name='2008' ordinal='52' />
+                  <column datatype='string' name='2009' ordinal='53' />
+                  <column datatype='string' name='2010' ordinal='54' />
+                  <column datatype='string' name='2011' ordinal='55' />
+                  <column datatype='string' name='2012' ordinal='56' />
+                  <column datatype='string' name='2013' ordinal='57' />
+                  <column datatype='string' name='2014' ordinal='58' />
+                  <column datatype='string' name='2015' ordinal='59' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CO2 Per Capita RAW DATA (World_Bank_CO2)' name='federated.05sz1by0hj4uk2175ikhm1bzduea' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.05sz1by0hj4uk2175ikhm1bzduea'>
+            <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Country Code]' derivation='None' name='[none:Country Code:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.05sz1by0hj4uk2175ikhm1bzduea].[none:Country Code:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.05sz1by0hj4uk2175ikhm1bzduea].[Latitude (generated)]</rows>
+        <cols>[federated.05sz1by0hj4uk2175ikhm1bzduea].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{E60B543D-9CD5-4812-913B-8DF6C8E24E3E}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{448E5CC0-68ED-4BD3-BCCE-0FE457B7B79A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
